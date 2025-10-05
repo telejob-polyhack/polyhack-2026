@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Grey box style for dummy sponsor logos */
+.sponsor-box {
+  background: #6b7280; /* gray-500 */
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111827;
+  font-weight: 700;
+}
+
+html, body, #root {
+  background-color: #111827;
+  color: white;
+  min-height: 100%;
+}
